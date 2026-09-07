@@ -54,6 +54,7 @@ failure never blocks manual entry or saving.
 - Send only changed fields and warn about unsaved edits.
 - Guard against concurrent edits (current behavior is last-write-wins).
 - Auto-lookup once a valid code is typed (debounced) instead of a button.
+- Improvement in the error return for the widget
 - pt-BR translations and other languages, and unit tests for the pure logic (code normalization,
   field map, response parsing).
 
